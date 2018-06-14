@@ -30,7 +30,7 @@ class Home extends React.Component{
         return(
             <div>
                 <Banner />
-                <ArtistsList allArtist={this.state.artists} />
+                <ArtistsList allArtists={this.state.artists} />
             </div>
         )
     }
