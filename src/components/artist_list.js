@@ -9,8 +9,8 @@ const ArtistsList = (props) =>{
             return allArtists.map((item)=>{
 
                 const style = {
-                    background:`url('/images/covers/${item.cover}.jpg)
-                    no-repeat`
+                    background:`url('/images/covers/${item.cover}.jpg')
+                     no-repeat`
                 }
 
                 return (
